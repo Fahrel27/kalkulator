@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ddd;
+}
+
+.container{
+    width: 550px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.822);
+    border: 5px solid black;
+    color: chartreuse;
+    border-radius: 15px;
+    font-family: cursive;
+}
+
+.judul{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    color: skyblue;
+    border: 1px solid black;
+    font-family: cursive;
+    flex-direction: column;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.display{
+    border-radius: 3px;
+    background-color: rgb(27, 26, 26);
+    border: 2px solid gold;
+    margin: 10px;
+    height: 50px;
+    padding: 10px;
+    font-size: 27px;
+}
+
+.button{
+    flex-basis: 25%;
+    padding: 10px;
+    margin: 10px;
+    background-color: green;
+    border: 2px solid white;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.button:hover{
+    background-color: brown;
+}
+
+.displayNumber{
+    text-align: right;
+}
